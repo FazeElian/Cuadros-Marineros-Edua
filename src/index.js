@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Estilos generales de App
+import "./assets/css/styles.css";
+
 // HashRouter
 import { HashRouter } from 'react-router-dom';
 
