@@ -2,13 +2,17 @@
     // Encabezado de App
     import { Header } from "../components/Header";
 
+    // Banner de Bote
+    import { BoatBanner } from "../components/views/HomeView/BoatBanner";
+        
 const HomeView = () => {
     return(
         <>
             {/* Componente de encabezado de App */}
             <Header />
 
-            <h1>Página Principal</h1>
+            {/* Componente Banner Bote */}
+            <BoatBanner />
         </>
     )
 }
