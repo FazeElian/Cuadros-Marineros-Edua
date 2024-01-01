@@ -1,0 +1,92 @@
+.featured-prods{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 3rem 0 3rem;
+    background-color: #BCCEDA;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .cont-title-section{
+        display: flex;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        background-color: #0D6097;
+        padding: 0.8rem;
+    }
+
+        .title-featured-prods{
+            display: flex;
+            border: 1px solid #0D6097;
+            border-bottom: 1px solid white;
+            color: white;
+            font-size: 20px;
+            font-weight: lighter;
+            padding: 4px 2.5rem 4px;
+        }
+
+    .cont-featured-prods{
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap; 
+        margin: 3rem 0 0;
+        justify-content: center;
+    }
+
+            .item-featured-prod{
+                display: flex;
+                flex: 20%;
+                max-width: 320px;
+                min-width: 310px;
+                height: auto;
+                flex-direction: column;
+                margin: 0 4rem 2rem;
+            }
+
+                .cont-img-item-featured-prod{
+                    display: flex;
+                    width: 100%;
+                    min-width: 280px;
+                    height: 55%;
+                    min-height: 240px;
+                    background-color: white;
+                }
+
+                    .cont-img-item-featured-prod img{
+                        display: flex;
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                .cont-text-item-featured-prod{
+                    display: flex;
+                    width: 100%;
+                    height: 45%;
+                    padding: 1rem 0 1rem;
+                    flex-direction: column;
+                }
+
+                .cont-text-item-featured-prod a,
+                .cont-text-item-featured-prod p{
+                    text-decoration: none;
+                    color: #262626;
+                }
+
+                .cont-text-item-featured-prod h2{
+                    font-size: 22px;
+                    font-weight: lighter;
+                    margin: 10px 0 7px;
+                }
+
+                .cont-text-item-featured-prod p{
+                    font-size: 15px;
+                }
+
+/* Responsive 1024px */
+@media (max-width: 1024px){
+    
+}
