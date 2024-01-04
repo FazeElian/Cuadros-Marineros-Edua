@@ -60,6 +60,12 @@
                         display: flex;
                         width: 100%;
                         height: 100%;
+                        cursor: pointer;
+                    }
+
+                    .cont-img-item-featured-prod img:hover{
+                        transform: scale(1.05);
+                        transition: .3s ease-in-out all;
                     }
 
                 .cont-text-item-featured-prod{
@@ -85,8 +91,3 @@
                 .cont-text-item-featured-prod p{
                     font-size: 15px;
                 }
-
-/* Responsive 1024px */
-@media (max-width: 1024px){
-    
-}

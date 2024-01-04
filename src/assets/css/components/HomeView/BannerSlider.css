@@ -1,7 +1,7 @@
 .banner-boat {
   display: flex;
   width: 100%;
-  height: 500px;
+  height: 87vh;
   background: rgb(13,96,151);
   background: linear-gradient(
     180deg, 
@@ -95,7 +95,7 @@
 /* Responsive 1024px */
 @media (max-width: 1024px){
   .banner-boat{
-    height: 400px;
+    height: 85vh;
   }
 
   .cont-boat img{
@@ -118,12 +118,14 @@
   }
 
   .cont-boat img{
-    width: 55%;
+    width: 70%;
+    min-width: 450px;
     margin: 2rem 0 -2rem;
   }
 
   .info-cont-boat{
     width: 100%;
+    margin: -4rem 0 4rem;
   }
 
   .info-cont-boat h2{
@@ -139,9 +141,14 @@
 
 /* Responsive 425px */
 @media (max-width: 425px){
+  .banner-boat{
+    height: 87vh;
+    padding: 0 0 3rem;
+  }
+
   .cont-boat img{
     width: 78%;
-    min-width: 250px;
+    min-width: 290px;
     margin: 0;
   }
 
