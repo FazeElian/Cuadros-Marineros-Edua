@@ -15,7 +15,7 @@ const ScrollToFeaturedProducts = () => {
                 to="featured-products-section"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-30}
                 duration={500}
             >
                 <button className="btn-scroll-boat">

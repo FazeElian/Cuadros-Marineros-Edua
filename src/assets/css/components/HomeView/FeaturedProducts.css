@@ -2,10 +2,9 @@
     display: flex;
     width: 100%;
     height: auto;
-    padding: 3rem 0 3rem;
+    padding: 0 0 3rem;
     background-color: #BCCEDA;
     flex-direction: column;
-    align-items: center;
 }
 
     .cont-title-section{
@@ -91,3 +90,8 @@
                 .cont-text-item-featured-prod p{
                     font-size: 15px;
                 }
+
+/* Responsive 1024px */
+@media (max-width: 1024px){
+
+}

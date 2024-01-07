@@ -1,3 +1,6 @@
+// Estilos para esta vista
+import "../assets/css/views/HomeView.css";
+
 // Componentes de vista
     // Encabezado de App
     import { Header } from "../components/Header";
@@ -17,8 +20,17 @@ const HomeView = () => {
             {/* Componente Banner Bote */}
             <BoatBanner />
 
+            <div className="block-betw-section"></div>
+
             {/* Componente Productos más destacados */}
             <FeaturedProducts />
+            <BoatBanner />
+
+            <BoatBanner />
+            <BoatBanner />
+            <BoatBanner />
+            <BoatBanner />
+
         </>
     )
 }
