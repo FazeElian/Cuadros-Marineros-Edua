@@ -1,6 +1,9 @@
 // Navegación entre rutas
 import { Link } from "react-router-dom";
 
+// Links con Scroll
+import { Element } from "react-scroll";
+
 // Estilos para este componente
 import "../../../assets/css/components/HomeView/FeaturedProducts.css";
 
@@ -47,7 +50,7 @@ const FeaturedProducts = () => {
     ];
 
     return(
-        <div className="featured-prods">
+        <Element className="featured-prods" name="featured-products-section">
             <div className="cont-title-section">
                 <div className="title-featured-prods">Productos más destacados</div>
             </div>
@@ -64,7 +67,7 @@ const FeaturedProducts = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </Element>
     )
 }
 

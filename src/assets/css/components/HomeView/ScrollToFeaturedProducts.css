@@ -1,0 +1,28 @@
+.cont-boat--btn-scroll{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    margin: -8rem 0 2.2rem;
+  }
+
+    .cont-boat--btn-scroll a{
+      display: flex;
+    }
+
+    .cont-boat--btn-scroll a button{
+      display: flex;
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+    }
+
+      .cont-boat--btn-scroll a button img{
+        width: 40px;
+        height: 40px;
+      }
