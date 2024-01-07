@@ -10,6 +10,9 @@ import "../assets/css/views/HomeView.css";
 
     // Productos más destacados
     import { FeaturedProducts } from "../components/views/HomeView/FeaturedProducts";
+
+    // Cuadros Marineros
+    import { SailorPaitings } from "../components/views/HomeView/SailorPaintings";
         
 const HomeView = () => {
     return(
@@ -24,13 +27,11 @@ const HomeView = () => {
 
             {/* Componente Productos más destacados */}
             <FeaturedProducts />
-            <BoatBanner />
 
-            <BoatBanner />
-            <BoatBanner />
-            <BoatBanner />
-            <BoatBanner />
+            <div className="block-betw-section-2"></div>
 
+            {/* Componente Cuadros Marineros */}
+            <SailorPaitings />
         </>
     )
 }

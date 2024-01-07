@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { Element } from "react-scroll";
 
 // Estilos para este componente
-import "../../../assets/css/components/HomeView/FeaturedProducts.css";
+import "../../../assets/css/components/HomeView/ProductsGallery.css";
 
 // Imágenes - Iconos
     // Producto Destacado 1
@@ -50,24 +50,26 @@ const FeaturedProducts = () => {
     ];
 
     return(
-        <Element className="featured-prods" name="featured-products-section">
-            <div className="cont-title-section">
-                <div className="title-featured-prods">Productos más destacados</div>
-            </div>
-            <div className="cont-featured-prods">
-                {ListFeaturedProducts.map((product) => (
-                    <div className="item-featured-prod" key={product.id}>
-                        <div className="cont-img-item-featured-prod">
-                            <img src={product.image} alt="" />
+        <>
+            <Element className="cont-section" name="featured-products-section">
+                <div className="cont-title-section">
+                    <div className="title-cont-section">Productos más destacados</div>
+                </div>
+                <div className="content-section">
+                    {ListFeaturedProducts.map((product) => (
+                        <div className="item-prod" key={product.id}>
+                            <div className="cont-img-item-prod">
+                                <img src={product.image} alt="" />
+                            </div>
+                            <div className="cont-text-item-prod">
+                                <h2><Link>{product.title}</Link></h2>
+                                <p>{product.description}</p>
+                            </div>
                         </div>
-                        <div className="cont-text-item-featured-prod">
-                            <h2><Link>{product.title}</Link></h2>
-                            <p>{product.description}</p>
-                        </div>
-                    </div>
-                ))}
-            </div>
-        </Element>
+                    ))}
+                </div>
+            </Element>
+        </>
     )
 }
 
