@@ -32,9 +32,10 @@
 
         .nav-company a h1{
             color: white;
-            font-size: 25px;
+            font-size: 24px;
             margin-left: 10px;
             font-weight: lighter;
+            font-family: 'Lora', serif;
         }
 
     .nav-btn-menu{
@@ -91,6 +92,8 @@
             margin: 0 0 1rem;
             border: 1px solid #0D6097;
             padding: 10px;
+            font-family: "Cambria", sans-serif;
+            cursor: pointer;
         }
 
         .item-nav-menu:hover{

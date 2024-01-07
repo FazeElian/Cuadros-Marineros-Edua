@@ -29,6 +29,7 @@
     justify-content: center;
     text-decoration: none;
     color: black;
+    font-family: "Cambria", sans-serif;
   }
 
     .cont-boat img{
@@ -66,13 +67,14 @@
         width: auto;
         height: auto;
         padding: 10px 1.5rem 10px;
-        font-size: 16px;
+        font-size: 18px;
         background-color: #0D6097;
         border-radius: 2rem;
         border: none;
         margin: 2rem 0 0;
         color: white;
         cursor: pointer;
+        font-family: "Cambria", sans-serif;
       }
 
         .btn-banner-boat:hover{
