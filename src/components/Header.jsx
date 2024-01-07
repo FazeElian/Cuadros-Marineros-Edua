@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, Outlet } from "react-router-dom";
 
 // Estilos para este componente
@@ -31,6 +31,22 @@ const Header = () => {
     const handleNavMenu = () => {
         setNavMenu(!navMenu);
     }
+
+    // Hook para desactivar menú cuando el usuario haga cierta cantidad de scroll
+    useEffect(() => {
+        const handleScrollNavMenu = () => {
+            const scrollThreshold = 200; // Cantidad de Scroll
+            if (window.scrollY > scrollThreshold && navMenu) {
+                setNavMenu(false);
+            }
+        };
+    
+        window.addEventListener('scroll', handleScrollNavMenu); // Adición Evento de Scroll
+    
+        return () => {
+            window.removeEventListener('scroll', handleScrollNavMenu);
+        };
+    }, [navMenu]);    
 
     return(
         <>
