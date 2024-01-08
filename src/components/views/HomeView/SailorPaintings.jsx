@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
     // Cuadro Marinero 1
     import featuredProductImage1 from "../../../assets/img/featuredProducts/featuredProductImage4.jpg";
 
+    // Icono Ver todos Flecha
+    import ArrowRightIcon from "../../../assets/img/icons/ArrowRight.png";
+
 const SailorPaintings = () => {
     // Lista de Cuadros Marineros
     const ListSailorPaintings = [
@@ -71,6 +74,16 @@ const SailorPaintings = () => {
                     </div>
                 </div>
             ))}
+
+            {/* Botón: Ver todos */}
+            <div className="cont-btn-go-to-all">
+                <button className="btn-go-to-all">
+                    <Link to="cuadros-marineros">
+                        <h2>Ver todos</h2>
+                        <img src={ArrowRightIcon} alt="" />
+                    </Link>
+                </button>
+            </div>
         </div>
     )
 }

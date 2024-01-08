@@ -1,7 +1,11 @@
 // Estilos para este componente
 import "../../../assets/css/components/HomeView/ProductsGallery.css";
 
+// Estado
 import { useState } from "react";
+
+// Navegación entre rutas
+import { Link } from "react-router-dom";
 
 // Componentes para este componente Productos
     // Cuadros Marineros

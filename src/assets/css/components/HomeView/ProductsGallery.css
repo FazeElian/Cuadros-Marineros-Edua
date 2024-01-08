@@ -108,6 +108,77 @@
                     font-size: 15px;
                 }
 
+    .cont-btn-go-to-all{
+        display: flex;
+        width: 100%;
+        height: auto;
+        padding: 0 6.2% 0;
+    }
+
+        .btn-go-to-all{
+            display: flex;
+            width: auto;
+            height: auto;
+            background-color: #0D6097;
+            padding: 10px 3rem 10px;
+            border-radius: 10px;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-go-to-all a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+
+            .btn-go-to-all a h2{
+                color: white;
+                font-size: 16px;
+                font-weight: lighter;
+            }
+
+            .btn-go-to-all a img{
+                width: 25px;
+                height: 25px;
+                margin-left: 7px;
+            }
+
+        .btn-go-to-all:hover{
+            opacity: 0.8;
+            transition: .3s;
+        }
+        
+/* Responsive 1440px */
+@media (max-width: 1440px){
+    .cont-btn-go-to-all{
+        padding: 0 7% 0;
+    }
+}
+
+/* Responsive 1280px */
+@media (max-width: 1280px){
+    .cont-btn-go-to-all{
+        padding: 0 16rem 0;
+    }
+
+    .btn-go-to-all{
+        padding: 7px 2rem 7px;
+    }
+
+    .btn-go-to-all a h2{
+        font-size: 14px;
+    }
+
+    .btn-go-to-all a img{
+        width: 22px;
+        height: 22px;
+    }
+}
+
 /* Responsive 1024px */
 @media (max-width: 1024px){
     .title-cont-section{
@@ -117,6 +188,10 @@
 
     .item-prod{
         transform: scale(0.9);
+    }
+
+    .cont-btn-go-to-all{
+        padding: 0 9rem 0;
     }
 }
 
@@ -136,6 +211,12 @@
 
     .cont-text-item-prod p{
         font-size: 14px;
+    }
+
+    .cont-btn-go-to-all{
+        align-items: center;
+        justify-content: center;
+        padding: 0;
     }
 }
 
@@ -163,5 +244,14 @@
 
     .cont-text-item-prod p{
         font-size: 15px;
+    }
+
+    .cont-btn-go-to-all{
+        width: auto;
+        padding: 0 4.5rem 0;
+    }
+
+    .btn-go-to-all{
+        margin-left: -9rem;
     }
 }
