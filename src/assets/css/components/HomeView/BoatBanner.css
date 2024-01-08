@@ -63,7 +63,7 @@
         font-weight: lighter;
       }
 
-      .btn-banner-boat{
+      .info-cont-boat a{
         display: flex;
         width: auto;
         height: auto;
@@ -78,7 +78,7 @@
         font-family: "Cambria", sans-serif;
       }
 
-        .btn-banner-boat:hover{
+        .info-cont-boat a:hover{
           background-color: white;
           color: #0D6097;
           transition: .3s;
@@ -112,7 +112,7 @@
 
 /* Responsive 768px */
 @media (max-width: 768px){
-  .cont-boat a{
+  .cont-boat{
     flex-direction: column;
   }
 

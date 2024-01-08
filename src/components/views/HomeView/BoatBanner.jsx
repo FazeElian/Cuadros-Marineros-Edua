@@ -15,19 +15,17 @@ const BoatBanner = () => {
         <>
             <section className="banner-boat">
                 <div className="cont-boat">
-                    <Link to="sailor-boats/sailor-boat-1"> {/* Ruta a bote */}
-                        <img
-                            src={ImageBoatBanner}
-                            className="image"
-                            alt="Imagen Slide"
-                        />
-                        <div className="info-cont-boat">
-                            <h2>Bote Infantería de Marina</h2>
-                            <button className="btn-banner-boat">
-                                Vamos a verlo ! 
-                            </button>
-                        </div>
-                    </Link>
+                    <img
+                        src={ImageBoatBanner}
+                        className="image"
+                        alt="Imagen Slide"
+                    />
+                    <div className="info-cont-boat">
+                            <h2>Bote Infantería de Marina</h2>   
+                            <Link to="botes-marineros/bote-infanteria-marina">
+                                Vamos a verlo !
+                            </Link> 
+                    </div>
                 </div>
             </section>
 
