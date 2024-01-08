@@ -2,65 +2,65 @@
 import { Link } from "react-router-dom";
 
 // Imágenes - Iconos
-    // Cuadro Marinero 1
-    import featuredProductImage1 from "../../../assets/img/featuredProducts/featuredProductImage4.jpg";
+    // Bote Marinero 1
+    import featuredProductImage1 from "../../../assets/img/featuredProducts/featuredProductImage1.jpg";
 
-const SailorPaintings = () => {
-    // Lista de Cuadros Marineros
-    const ListSailorPaintings = [
+const SailorBoats = () => {
+    // Lista de Botes Marineros
+    const ListSailorBoats = [
         {
             id: 1,
             image: featuredProductImage1,
-            title: "Cuadro Marinero 1",
-            description: "Descripción Cuadro Marinero 1"
+            title: "Bote Marinero 1",
+            description: "Bote Marinero 1"
         },
         {
             id: 2,
             image: featuredProductImage1,
-            title: "Cuadro Marinero 2",
-            description: "Descripción Cuadro Marinero 2"
+            title: "Bote Marinero 2",
+            description: "Bote Marinero 2"
         },
         {
             id: 3,
             image: featuredProductImage1,
-            title: "Cuadro Marinero 3",
-            description: "Descripción Cuadro Marinero 3"
+            title: "Bote Marinero 3",
+            description: "Bote Marinero 3"
         },
         {
             id: 4,
             image: featuredProductImage1,
-            title: "Cuadro Marinero 4",
-            description: "Descripción Cuadro Marinero 4"
+            title: "Bote Marinero 4",
+            description: "Bote Marinero 4"
         },
         {
             id: 5,
             image: featuredProductImage1,
-            title: "Cuadro Marinero 5",
-            description: "Descripción Cuadro Marinero 5"
+            title: "Bote Marinero 5",
+            description: "Bote Marinero 5"
         },
         {
             id: 6,
             image: featuredProductImage1,
-            title: "Cuadro Marinero 6",
-            description: "Descripción Cuadro Marinero 6"
+            title: "Bote Marinero 6",
+            description: "Bote Marinero 6"
         },
         {
             id: 7,
             image: featuredProductImage1,
-            title: "Cuadro Marinero 7",
-            description: "Descripción Cuadro Marinero 7"
+            title: "Bote Marinero 7",
+            description: "Bote Marinero 7"
         },
         {
             id: 8,
             image: featuredProductImage1,
-            title: "Cuadro Marinero 8",
-            description: "Descripción Cuadro Marinero 8"
+            title: "Bote Marinero 8",
+            description: "Bote Marinero 8"
         },
     ];
     
     return(
         <div className="content-section">
-            {ListSailorPaintings.map((product) => (
+            {ListSailorBoats.map((product) => (
                 <div className="item-prod" key={product.id}>
                     <div className="cont-img-item-prod">
                         <img src={product.image} alt="" />
@@ -75,4 +75,4 @@ const SailorPaintings = () => {
     )
 }
 
-export { SailorPaintings };
+export { SailorBoats };

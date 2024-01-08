@@ -40,6 +40,10 @@
             border-bottom: 1px solid #0D6097;
         }
 
+        .title-cont-section.selected{
+            border-bottom: 1px solid white;
+        }
+
     .content-section{
         display: flex;
         width: 100%;

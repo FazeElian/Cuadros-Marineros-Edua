@@ -26,26 +26,26 @@ const FeaturedProducts = () => {
         {
             id: 1,
             image: featuredProductImage1,
-            title: "Buque ARC Barranquilla",
-            description: "Descripción Producto 1"
+            title: "Producto destacado 1",
+            description: "Descripción Producto destacado 1"
         },
         {
             id: 2,
             image: featuredProductImage2,
-            title: "Cuadro Marinero Vintage",
-            description: "Descripción Producto 2"
+            title: "Producto destacado 2",
+            description: "Descripción Producto destacado 2"
         },
         {
             id: 3,
             image: featuredProductImage3,
-            title: "Bote Marinero Infantería de Marina",
-            description: "Descripción Producto 3"
+            title: "Producto destacado 3",
+            description: "Descripción Producto destacado 3"
         },
         {
             id: 4,
             image: featuredProductImage4,
-            title: "Cuadro Marinero Simple",
-            description: "Descripción Producto 4"
+            title: "Producto destacado 4",
+            description: "Descripción Producto destacado 4"
         },
     ];
 
